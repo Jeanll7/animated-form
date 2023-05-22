@@ -1,4 +1,5 @@
 import "./App.scss";
+import { ArrowIcon } from "./components/arrow-icon";
 
 function App() {
   return (
@@ -10,7 +11,16 @@ function App() {
           <a>How it works</a>
           <a>Portfolio</a>
         </nav>
-        <button>Contact us</button>
+        <button>
+          <div className="btn-face-white">
+            Contact us
+            <ArrowIcon />
+          </div>
+          <div className="btn-face-purple">
+            Contact us
+            <ArrowIcon />
+          </div>
+        </button>
       </header>
     </main>
   );
